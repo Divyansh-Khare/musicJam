@@ -1,0 +1,22 @@
+{
+  "name": "musicjam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend",
+    "start": "npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Divyansh-Khare/musicJam.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Divyansh-Khare/musicJam/issues"
+  },
+  "homepage": "https://github.com/Divyansh-Khare/musicJam#readme"
+}
