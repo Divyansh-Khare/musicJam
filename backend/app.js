@@ -35,7 +35,10 @@ app.post("/login/auth/userid69206c6f766520796f75", async (req, res) => {
             password: req.body.password
         });
         await newUser.save();
-        res.status(200).sendFile(path.join(__dirname, "..", "frontend/servers.html"));
+        sleep(3000, () => {
+            res.status(200).sendFile(path.join(__dirname, "..", "frontend/servers.html"));
+        })
+        
     } catch (err) {
         console.log("Error saving data...");
         console.log(err);
